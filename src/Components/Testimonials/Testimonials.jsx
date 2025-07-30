@@ -15,12 +15,12 @@ const Testimonials = () => {
       <div className='slider'>
         <ul>
             <li>
-                <div className='slider'>
+                <div className='slide'>
                     <div className='user-info'>
                         <img src={user_1} alt="" />
                         <div>
                             <h3>Winnie Odhiambo</h3>
-                            <span>Grade 6</span>
+                            <span>California USA</span>
                         </div>
                     </div>
                     <p>Studying at Maple Ridge Academy was one of the best experiences of my early education. 
@@ -31,7 +31,7 @@ const Testimonials = () => {
                 </div>
             </li>
             <li>
-                <div className='slider'>
+                <div className='slide'>
                     <div className='user-info'>
                         <img src={user_2} alt="" />
                         <div>
@@ -46,7 +46,7 @@ const Testimonials = () => {
                 </div>
             </li>
             <li>
-                <div className='slider'>
+                <div className='slide'>
                     <div className='user-info'>
                         <img src={user_3} alt="" />
                         <div>
@@ -63,11 +63,11 @@ const Testimonials = () => {
                 </div>
             </li>
             <li>
-                <div className='slider'>
+                <div className='slide'>
                     <div className='user-info'>
                         <img src={user_4} alt="" />
                         <div>
-                            <h3>Joy <Mwende></Mwende></h3>
+                            <h3>Joy Mwende</h3>
                             <span>Grade 6 – Maple Ridge Academy</span>
                         </div>
                     </div>
