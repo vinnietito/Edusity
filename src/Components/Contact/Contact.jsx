@@ -1,12 +1,15 @@
 import React from 'react';
 import './Contact.css';
 import msg_icon from '../../assets/msg-icon.png'
+import mail_icon from '../../assets/mail-icon.png'
+import phone_icon from '../../assets/phone-icon.png'
+import location_icon from '../../assets/location-icon.png'
 
 const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-col">
-        <h3>Send Us a Message <img src="" alt="" /></h3>
+        <h3>Send Us a Message <img src={msg_icon} alt="" /></h3>
         <p>
           Thank you for your interest in Maple Ridge Academy. We are always happy to connect with
           parents, guardians, students, and well-wishers who would like to learn more about our
@@ -21,7 +24,7 @@ const Contact = () => {
           We look forward to hearing from you!
         </p>
         <ul>
-          <li>Email: <a href="mailto:vincentnjuguna69@gmail.com">vincentnjuguna69@gmail.com</a></li>
+          <li><img src={mail_icon} alt="" />Email: <a href="mailto:vincentnjuguna69@gmail.com">vincentnjuguna69@gmail.com</a></li>
           <li>Phone: <a href="tel:+254792769123">+254 792 769 123</a></li>
           <li>
             Address: Maple Ridge Academy, 42 Ridgeway Lane,<br />
