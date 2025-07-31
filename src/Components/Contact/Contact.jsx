@@ -1,11 +1,12 @@
 import React from 'react';
 import './Contact.css';
+import msg_icon from '../../assets/msg-icon.png'
 
 const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-col">
-        <h3>Send Us a Message</h3>
+        <h3>Send Us a Message <img src="" alt="" /></h3>
         <p>
           Thank you for your interest in Maple Ridge Academy. We are always happy to connect with
           parents, guardians, students, and well-wishers who would like to learn more about our
