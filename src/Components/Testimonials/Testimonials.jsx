@@ -44,7 +44,7 @@ const slideBackward = () => {
                     <div className='user-info'>
                         <img src={user_2} alt="" />
                         <div>
-                            <h3>Irene Wairimu</h3>
+                            <h3>Donald Asiago</h3>
                             <span>Nairobi, Kenya</span>
                         </div>
                     </div>
