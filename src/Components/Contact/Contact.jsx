@@ -25,15 +25,24 @@ const Contact = () => {
         </p>
         <ul>
           <li><img src={mail_icon} alt="" />Email: <a href="mailto:vincentnjuguna69@gmail.com">vincentnjuguna69@gmail.com</a></li>
-          <li>Phone: <a href="tel:+254792769123">+254 792 769 123</a></li>
-          <li>
-            Address: Maple Ridge Academy, 42 Ridgeway Lane,<br />
+          <li><img src={phone_icon} alt="" />Phone: <a href="tel:+254792769123">+254 792 769 123</a></li>
+          <li><img src={location_icon} alt="" />
+            Maple Ridge Academy, 42 Ridgeway Lane,<br />
             Brookdale District, Nairobi, Kenya
           </li>
         </ul>
       </div>
 
       <div className="contact-col">
+        <form >
+            <label>Your name</label>
+            <input type="text" name='name' placeholder='Enter your name' required/>
+            <label>Phone Number</label>
+            <input type="tel" name='phone' placeholder='Enter your mobile number' />
+            <label>Write your message here</label>
+            <textarea name="message" rows="6" placeholder='Enter your message'></textarea>
+            <button type='submit' className='btn dark-btn'>Submit now</button>
+        </form>
         {/* Add your form or map/image here */}
       </div>
     </div>
