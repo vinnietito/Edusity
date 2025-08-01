@@ -15,7 +15,7 @@ const [result, setResult] = React.useState("");
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "bae4dbbd-2847-4079-9701-5a232b898405");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -63,7 +63,7 @@ const [result, setResult] = React.useState("");
       </div>
 
       <div className="contact-col">
-        <form >
+        <form onSubmit={onSubmit}>
             <label>Your name</label>
             <input type="text" name='name' placeholder='Enter your name' required/>
             <label>Phone Number</label>
@@ -72,7 +72,7 @@ const [result, setResult] = React.useState("");
             <textarea name="message" rows="6" placeholder='Enter your message'></textarea>
             <button type='submit' className='btn dark-btn'>Submit now <img src={white_arrow} alt="" /></button>
         </form>
-        <span></span>
+        <span>{result}</span>
         
       </div>
     </div>
