@@ -27,6 +27,7 @@ const [result, setResult] = React.useState("");
     if (data.success) {
       setResult("Form Submitted Successfully");
       event.target.reset();
+      event.target.reset();
     } else {
       console.log("Error", data);
       setResult(data.message);
