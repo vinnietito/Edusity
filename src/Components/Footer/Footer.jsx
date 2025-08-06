@@ -5,6 +5,10 @@ const Footer = () => {
   return (
     <div className='footer'>
       <p>@ 2025 Maple Ridge Academy. All rights reserved</p>
+      <ul>
+        <li>Terms of Services</li>
+        <li>Privacy Policy</li>
+      </ul>
     </div>
   )
 }
